@@ -1,0 +1,33 @@
+{
+  "name": "nteract-members",
+  "version": "1.0.0",
+  "description": "Members of nteract from the GitHub API Edit",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "node fetch.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "directories": {
+		"lib": "./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgbkrk/nteract-members.git"
+  },
+  "keywords": [
+    "nteract",
+    "github",
+    "peeps",
+    "people"
+  ],
+  "author": "Kyle Kelley <rgbkrk@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/rgbkrk/nteract-members/issues"
+  },
+  "homepage": "https://github.com/rgbkrk/nteract-members#readme",
+  "devDependencies": {
+    "fetch-github-organization": "^1.0.2",
+    "mkdirp": "^0.5.1"
+  }
+}
