@@ -4,6 +4,19 @@ const mkdirp = require("mkdirp");
 const fetchUsers = require("fetch-github-organization");
 const fs = require("fs");
 
+const AN_HOUR_AGO = Date.now() - 1000 * 60 * 60;
+
+try {
+  if (fs.statSync("lib/users.json").mtime > AN_HOUR_AGO) {
+    console.log(
+      "lib/users.json was created less than an hour ago, not refetching"
+    );
+    process.exit(0);
+  }
+} catch (err) {
+  console.log("fetching new users.json");
+}
+
 function prepareDirectory() {
   return new Promise((resolve, reject) => {
     mkdirp("lib", err => {
