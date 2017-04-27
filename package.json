@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/rgbkrk/nteract-members#readme",
   "devDependencies": {
-    "fetch-github-organization": "^1.0.2",
+    "fetch-github-organization": "^1.0.3",
     "mkdirp": "^0.5.1"
   }
 }
