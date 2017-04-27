@@ -4,8 +4,7 @@
   "description": "Members of nteract from the GitHub API Edit",
   "main": "index.js",
   "scripts": {
-    "prepare": "node fetch.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "node fetch.js"
   },
   "directories": {
 		"lib": "./lib"
