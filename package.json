@@ -1,13 +1,13 @@
 {
   "name": "nteract-members",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Members of nteract from the GitHub API Edit",
   "main": "index.js",
   "scripts": {
     "prepublish": "node fetch.js"
   },
   "directories": {
-		"lib": "./lib"
+    "lib": "./lib"
   },
   "repository": {
     "type": "git",
