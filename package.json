@@ -7,9 +7,10 @@
     "test": "node index.js",
     "prepublish": "node fetch.js"
   },
-  "directories": {
-    "lib": "./lib"
-  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rgbkrk/nteract-members.git"
