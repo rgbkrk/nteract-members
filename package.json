@@ -1,6 +1,6 @@
 {
   "name": "nteract-members",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Members of nteract from the GitHub API Edit",
   "main": "index.js",
   "scripts": {
